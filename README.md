@@ -1,6 +1,6 @@
-### Code that I wrote when I was 14.
+### Poop penis balls 2017
+Disclaimer: ![](https://i.imgur.com/S0ITfTD.gif)
 
-Feel free to compile the DLLs yourself, or download them here:
+
+Downloads:
 https://github.com/cademtz/SparklyCheatArchive/releases
-
-Be prepared to lol your head off
