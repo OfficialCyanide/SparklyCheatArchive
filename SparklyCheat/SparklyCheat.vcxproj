@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53348295-68AD-4FAE-8203-4B68A6C6A6E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>basehook</RootNamespace>
+    <ProjectName>Sparkly Cheat</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>basehook</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib;kernel32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>user32.lib;kernel32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Draw models.cpp" />
+    <ClCompile Include="FrameStageNotify.cpp" />
+    <ClCompile Include="Mathack.cpp" />
+    <ClCompile Include="Netvar.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="Aim.cpp" />
+    <ClCompile Include="HvH.cpp" />
+    <ClCompile Include="CDrawManager.cpp" />
+    <ClCompile Include="CGlobalVars.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ConVar.cpp" />
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="Entity stuff.cpp" />
+    <ClCompile Include="Esp.cpp" />
+    <ClCompile Include="CDrawManagerEx.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Hitscan.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="Panels.cpp" />
+    <ClCompile Include="CSignature.cpp" />
+    <ClCompile Include="Players.cpp" />
+    <ClCompile Include="VMTHooks.cpp" />
+    <ClCompile Include="Window styles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Draw models.h" />
+    <ClInclude Include="Entity ID.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="FrameStageNotify.h" />
+    <ClInclude Include="inetchannel.h" />
+    <ClInclude Include="inetchannelinfo.h" />
+    <ClInclude Include="KeyValues.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Mathack.h" />
+    <ClInclude Include="Netvar.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="utlblockmemory.h" />
+    <ClInclude Include="utlmemory.h" />
+    <ClInclude Include="utlvector.h" />
+    <ClInclude Include="Ray tracing.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="Aim.h" />
+    <ClInclude Include="HvH.h" />
+    <ClInclude Include="bspflags.h" />
+    <ClInclude Include="CGlobalVars.h" />
+    <ClInclude Include="ConVar.h" />
+    <ClInclude Include="CTextures.h" />
+    <ClInclude Include="DSbasetsd.h" />
+    <ClInclude Include="CDrawManager.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="commonColors.h" />
+    <ClInclude Include="Entity stuff.h" />
+    <ClInclude Include="Esp.h" />
+    <ClInclude Include="CDrawManagerEx.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="getvfunc.h" />
+    <ClInclude Include="Hitscan.h" />
+    <ClInclude Include="IConVar.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="Panels.h" />
+    <ClInclude Include="Players.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="CSignature.h" />
+    <ClInclude Include="studio.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="VMTHooks.h" />
+    <ClInclude Include="WeaponList.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Cheats\Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManagerEx.cpp">
+      <Filter>CDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Cheats\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>Cheats\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitscan.cpp">
+      <Filter>Cheats\Hitscan</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>SDK\ConVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Window styles.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>SDK\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>SDK\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawManager.cpp">
+      <Filter>CDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>Cheats\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>CDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Panels.cpp" />
+    <ClCompile Include="HvH.cpp">
+      <Filter>Cheats\HvH</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity stuff.cpp">
+      <Filter>SDK\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlobalVars.cpp">
+      <Filter>SDK\Netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw models.cpp" />
+    <ClCompile Include="FrameStageNotify.cpp" />
+    <ClCompile Include="Netvar.cpp">
+      <Filter>SDK\Netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Cheats\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathack.cpp">
+      <Filter>Cheats\Mathack</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Utils\Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Cheats\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawManagerEx.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Cheats\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.h">
+      <Filter>Cheats\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="commonColors.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitscan.h">
+      <Filter>Cheats\Hitscan</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>SDK\ConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="IConVar.h">
+      <Filter>SDK\ConVar</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>SDK\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawManager.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Cheats\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="HvH.h">
+      <Filter>Cheats\HvH</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity stuff.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DSbasetsd.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponList.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>SDK\Netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw models.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity ID.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>SDK\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="inetchannel.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="inetchannelinfo.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="Netvar.h">
+      <Filter>SDK\Netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray tracing.h">
+      <Filter>SDK\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Cheats\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathack.h">
+      <Filter>Cheats\Mathack</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Utils\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="utlvector.h">
+      <Filter>SDK\utlvector</Filter>
+    </ClInclude>
+    <ClInclude Include="utlmemory.h">
+      <Filter>SDK\utlvector</Filter>
+    </ClInclude>
+    <ClInclude Include="utlblockmemory.h">
+      <Filter>SDK\utlvector</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{67e5e074-d49b-4333-ae0b-029934eb90e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{b68e76ce-7a3d-4443-8c13-a54e5deac2b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Esp">
+      <UniqueIdentifier>{a0b88e47-6981-485c-b665-bfb5f4dc519a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{660ad263-5c90-4fa7-b3dc-a8040b36e27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Misc">
+      <UniqueIdentifier>{bddfea11-4bd7-4a41-bcbc-4f6d0dd8a15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Aim">
+      <UniqueIdentifier>{1b51e418-5752-4552-95d5-c3fef151795d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Hitscan">
+      <UniqueIdentifier>{a337fede-2ab7-4f24-b15f-5a867f1c5f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Config">
+      <UniqueIdentifier>{288a1053-aab2-420c-9a74-5a1d1dea3c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Trigger">
+      <UniqueIdentifier>{75e49494-899d-42ab-b051-39d88e7ca98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7561bd3e-f399-43c0-80fd-202de503f606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Vector">
+      <UniqueIdentifier>{d68cc38a-2584-45fd-a996-60c24993115b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\ConVar">
+      <UniqueIdentifier>{27b3538c-7f4b-4ddd-83b6-0588b5a6ff43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Hooking">
+      <UniqueIdentifier>{619c240e-606e-4ae8-813b-5f7165ad47f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDraw">
+      <UniqueIdentifier>{52437683-23bb-4c8d-b411-846a771f8633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Players">
+      <UniqueIdentifier>{3913559a-e365-4c98-9ee6-ec7d8f4728e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\INetChannel">
+      <UniqueIdentifier>{a7b17abc-9010-425b-9b33-6a19ecdf08d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\HvH">
+      <UniqueIdentifier>{1e943af7-429a-4fde-8b8c-4a53442ebe75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Entity">
+      <UniqueIdentifier>{82986e1c-9020-436a-9321-bded94cb8eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Other">
+      <UniqueIdentifier>{e4fc50d4-939d-4176-b117-0a5ef90d80c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Netvar">
+      <UniqueIdentifier>{591fa299-a68d-4d72-8c41-374840667df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Mathack">
+      <UniqueIdentifier>{ecc52387-ed28-4955-9401-fbd2024e8bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\utlvector">
+      <UniqueIdentifier>{fd9b4e2e-7ad0-4c81-b439-ad31703566f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
